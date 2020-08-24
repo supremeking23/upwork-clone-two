@@ -53,6 +53,7 @@ section {
 .col-2 {
   width: calc(100% / 12 * 2);
   background: yellow;
+  /* comment */
 }
 
 /* // Extra small devices (portrait phones, less than 576px)
