@@ -1,0 +1,86 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+  /* background: ; */
+  min-height: 100px;
+  color: #fff;
+}
+
+.container-fluid {
+  width: 100%;
+  max-width: 1442px;
+  margin: 0 auto;
+  /* background: ; */
+  min-height: 100px;
+  color: #fff;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col {
+  min-height: 100px;
+  display: flex;
+  padding: 10px;
+  margin: 10px;
+}
+
+.col-12 {
+  width: calc(100% / 12 * 12);
+  /* background: blue; */
+}
+
+.col-6 {
+  width: calc(100% / 12 * 6);
+  /* background: violet; */
+}
+
+.col-4 {
+  width: calc(100% / 12 * 4);
+  /* background: green; */
+}
+
+.col-3 {
+  width: calc(100% / 12 * 3);
+  /* background: yellow; */
+}
+
+.col-2 {
+  width: calc(100% / 12 * 2);
+  /* background: yellow; */
+  /* comment */
+}
+
+section {
+  margin-bottom: 50px;
+}
+
+.btn {
+  background: #eee;
+  padding: 14px;
+}
+
+.for-btns {
+  /* width: 100%; */
+  padding: 10px 40px;
+  border: none;
+  font-weight: bold;
+}
+.btn-get-started {
+  background: #37a000;
+  color: #fff;
+}
+
+.btn-watch-demo {
+  background: var(--bg-inverse);
+  color: #37a000;
+}
