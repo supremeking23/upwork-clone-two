@@ -3,7 +3,7 @@
 :root {
   --primary-color: #37a000;
   --bg-inverse: #f9f9f9;
-  --nav-bg: #fff;
+  --white-bg: #fff;
   --nav-links: #fff;
   --text-color: #656565;
   --text-color-2: #222;
@@ -13,6 +13,16 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  color: var(--text-color-2);
 }
 
 section {
@@ -46,13 +56,33 @@ section {
   /* background: blue; */
 }
 
+.col-11 {
+  width: calc(100% / 12 * 11);
+  /* background: blue; */
+}
+
 .col-9 {
   width: calc(100% / 12 * 9);
-  /* background: violet; */
+  /* background: blue; */
+}
+
+.col-8 {
+  width: calc(100% / 12 * 8);
+  /* background: blue; */
+}
+
+.col-7 {
+  width: calc(100% / 12 * 7);
+  /* background: blue; */
 }
 
 .col-6 {
   width: calc(100% / 12 * 6);
+  /* background: blue; */
+}
+
+.col-5 {
+  width: calc(100% / 12 * 5);
   /* background: violet; */
 }
 
@@ -81,8 +111,33 @@ section {
     /* background: blue; */
   }
 
+  .col-sm-11 {
+    width: calc(100% / 12 * 11);
+    /* background: blue; */
+  }
+
+  .col-sm-9 {
+    width: calc(100% / 12 * 9);
+    /* background: blue; */
+  }
+
+  .col-sm-8 {
+    width: calc(100% / 12 * 8);
+    /* background: blue; */
+  }
+
+  .col-sm-7 {
+    width: calc(100% / 12 * 7);
+    /* background: blue; */
+  }
+
   .col-sm-6 {
     width: calc(100% / 12 * 6);
+    /* background: blue; */
+  }
+
+  .col-sm-5 {
+    width: calc(100% / 12 * 5);
     /* background: violet; */
   }
 
@@ -95,6 +150,11 @@ section {
     width: calc(100% / 12 * 3);
     /* background: yellow; */
   }
+
+  .col-sm-2 {
+    width: calc(100% / 12 * 2);
+    /* background: yellow; */
+  }
 }
 
 /* // Medium devices (tablets, 768px and up) */
@@ -104,12 +164,33 @@ section {
     /* background: blue; */
   }
 
-  .col-md-6 {
-    width: calc(100% / 12 * 6);
-    /* background: violet; */
+  .col-md-11 {
+    width: calc(100% / 12 * 11);
+    /* background: blue; */
   }
+
+  .col-md-9 {
+    width: calc(100% / 12 * 9);
+    /* background: blue; */
+  }
+
   .col-md-8 {
     width: calc(100% / 12 * 8);
+    /* background: blue; */
+  }
+
+  .col-md-7 {
+    width: calc(100% / 12 * 7);
+    /* background: blue; */
+  }
+
+  .col-md-6 {
+    width: calc(100% / 12 * 6);
+    /* background: blue; */
+  }
+
+  .col-md-5 {
+    width: calc(100% / 12 * 5);
     /* background: violet; */
   }
 
@@ -125,6 +206,7 @@ section {
 
   .col-md-2 {
     width: calc(100% / 12 * 2);
+    /* background: yellow; */
   }
 }
 
@@ -135,8 +217,33 @@ section {
     /* background: blue; */
   }
 
+  .col-lg-11 {
+    width: calc(100% / 12 * 11);
+    /* background: blue; */
+  }
+
+  .col-lg-9 {
+    width: calc(100% / 12 * 9);
+    /* background: blue; */
+  }
+
+  .col-lg-8 {
+    width: calc(100% / 12 * 8);
+    /* background: blue; */
+  }
+
+  .col-lg-7 {
+    width: calc(100% / 12 * 7);
+    /* background: blue; */
+  }
+
   .col-lg-6 {
     width: calc(100% / 12 * 6);
+    /* background: blue; */
+  }
+
+  .col-lg-5 {
+    width: calc(100% / 12 * 5);
     /* background: violet; */
   }
 
@@ -160,22 +267,52 @@ section {
 @media (min-width: 1200px) {
   .col-xl-12 {
     width: calc(100% / 12 * 12);
-    background: blue;
+    /* background: blue; */
+  }
+
+  .col-xl-11 {
+    width: calc(100% / 12 * 11);
+    /* background: blue; */
+  }
+
+  .col-xl-9 {
+    width: calc(100% / 12 * 9);
+    /* background: blue; */
+  }
+
+  .col-xl-8 {
+    width: calc(100% / 12 * 8);
+    /* background: blue; */
+  }
+
+  .col-xl-7 {
+    width: calc(100% / 12 * 7);
+    /* background: blue; */
   }
 
   .col-xl-6 {
     width: calc(100% / 12 * 6);
-    background: violet;
+    /* background: blue; */
+  }
+
+  .col-xl-5 {
+    width: calc(100% / 12 * 5);
+    /* background: violet; */
   }
 
   .col-xl-4 {
     width: calc(100% / 12 * 4);
-    background: green;
+    /* background: green; */
   }
 
   .col-xl-3 {
     width: calc(100% / 12 * 3);
-    background: yellow;
+    /* background: yellow; */
+  }
+
+  .col-xl-2 {
+    width: calc(100% / 12 * 2);
+    /* background: yellow; */
   }
 }
 
@@ -203,6 +340,8 @@ section {
 /* end defaults */
 nav {
   background: var(--bg-inverse);
+  /* position: fixed; */
+  /* width: 100%; */
 }
 .main-navigation {
   height: 70px;
@@ -363,7 +502,7 @@ nav {
   margin-bottom: 0;
 }
 
-.section-inverse:nth-of-type(2) {
+.section-inverse:nth-of-type(even) {
   background: var(--bg-inverse);
   margin-bottom: 50px;
 }
@@ -398,9 +537,15 @@ nav {
   width: 100%;
 }
 
+/* Third Section */
 /* Trusted Business section */
+
+.trusted-section {
+  /* height: 100px; */
+}
 .trusted-business-heading {
   color: var(--text-color-2);
+  min-height: 0;
 }
 
 .trusted-agency-img-container {
@@ -408,4 +553,48 @@ nav {
 
 .trusted-img {
   width: 100%;
+}
+
+/* Fourth Section */
+/* hire section */
+.hire-row {
+  min-height: 200px;
+}
+
+.green-dash {
+  width: 31px;
+  height: 7px;
+  /* min-height: 10px; */
+  background: var(--primary-color);
+}
+
+.scope-side {
+  background: var(--white-bg);
+  /* height: 200px; */
+  padding: 30px;
+  margin: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.hire-content-container {
+  min-height: 120px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+
+  padding-right: 20px;
+  padding-left: 20px;
+  /* line-height: 1.5; */
+  /* background: pink; */
+}
+
+.hire-content-container h4 {
+  margin: 10px 0;
+}
+
+.border-right {
+  border-right: 1px solid var(--text-color);
 }
