@@ -1,320 +1,5 @@
-/* @import "defaults.css"; */
-
-:root {
-  --primary-color: #37a000;
-  --bg-inverse: #f9f9f9;
-  --white-bg: #fff;
-  --nav-links: #fff;
-  --text-color: #656565;
-  --text-color-2: #222;
-}
-
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  color: var(--text-color-2);
-}
-
-section {
-  margin-bottom: 50px;
-}
-
-.container {
-  width: 100%;
-  max-width: 1140px;
-  margin: 0 auto;
-  /* background: red; */
-  min-height: 100px;
-  color: #fff;
-}
-
-.row {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.col {
-  /* border: 1px solid #000; */
-  min-height: 100px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.col-12 {
-  width: calc(100% / 12 * 12);
-  /* background: blue; */
-}
-
-.col-11 {
-  width: calc(100% / 12 * 11);
-  /* background: blue; */
-}
-
-.col-9 {
-  width: calc(100% / 12 * 9);
-  /* background: blue; */
-}
-
-.col-8 {
-  width: calc(100% / 12 * 8);
-  /* background: blue; */
-}
-
-.col-7 {
-  width: calc(100% / 12 * 7);
-  /* background: blue; */
-}
-
-.col-6 {
-  width: calc(100% / 12 * 6);
-  /* background: blue; */
-}
-
-.col-5 {
-  width: calc(100% / 12 * 5);
-  /* background: violet; */
-}
-
-.col-4 {
-  width: calc(100% / 12 * 4);
-  /* background: green; */
-}
-
-.col-3 {
-  width: calc(100% / 12 * 3);
-  /* background: yellow; */
-}
-
-.col-2 {
-  width: calc(100% / 12 * 2);
-  /* background: yellow; */
-}
-
-/* // Extra small devices (portrait phones, less than 576px)
-  // No media query for `xs` since this is the default in Bootstrap */
-
-/* // Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {
-  .col-sm-12 {
-    width: calc(100% / 12 * 12);
-    /* background: blue; */
-  }
-
-  .col-sm-11 {
-    width: calc(100% / 12 * 11);
-    /* background: blue; */
-  }
-
-  .col-sm-9 {
-    width: calc(100% / 12 * 9);
-    /* background: blue; */
-  }
-
-  .col-sm-8 {
-    width: calc(100% / 12 * 8);
-    /* background: blue; */
-  }
-
-  .col-sm-7 {
-    width: calc(100% / 12 * 7);
-    /* background: blue; */
-  }
-
-  .col-sm-6 {
-    width: calc(100% / 12 * 6);
-    /* background: blue; */
-  }
-
-  .col-sm-5 {
-    width: calc(100% / 12 * 5);
-    /* background: violet; */
-  }
-
-  .col-sm-4 {
-    width: calc(100% / 12 * 4);
-    /* background: green; */
-  }
-
-  .col-sm-3 {
-    width: calc(100% / 12 * 3);
-    /* background: yellow; */
-  }
-
-  .col-sm-2 {
-    width: calc(100% / 12 * 2);
-    /* background: yellow; */
-  }
-}
-
-/* // Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {
-  .col-md-12 {
-    width: calc(100% / 12 * 12);
-    /* background: blue; */
-  }
-
-  .col-md-11 {
-    width: calc(100% / 12 * 11);
-    /* background: blue; */
-  }
-
-  .col-md-9 {
-    width: calc(100% / 12 * 9);
-    /* background: blue; */
-  }
-
-  .col-md-8 {
-    width: calc(100% / 12 * 8);
-    /* background: blue; */
-  }
-
-  .col-md-7 {
-    width: calc(100% / 12 * 7);
-    /* background: blue; */
-  }
-
-  .col-md-6 {
-    width: calc(100% / 12 * 6);
-    /* background: blue; */
-  }
-
-  .col-md-5 {
-    width: calc(100% / 12 * 5);
-    /* background: violet; */
-  }
-
-  .col-md-4 {
-    width: calc(100% / 12 * 4);
-    /* background: green; */
-  }
-
-  .col-md-3 {
-    width: calc(100% / 12 * 3);
-    /* background: yellow; */
-  }
-
-  .col-md-2 {
-    width: calc(100% / 12 * 2);
-    /* background: yellow; */
-  }
-}
-
-/* // Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {
-  .col-lg-12 {
-    width: calc(100% / 12 * 12);
-    /* background: blue; */
-  }
-
-  .col-lg-11 {
-    width: calc(100% / 12 * 11);
-    /* background: blue; */
-  }
-
-  .col-lg-9 {
-    width: calc(100% / 12 * 9);
-    /* background: blue; */
-  }
-
-  .col-lg-8 {
-    width: calc(100% / 12 * 8);
-    /* background: blue; */
-  }
-
-  .col-lg-7 {
-    width: calc(100% / 12 * 7);
-    /* background: blue; */
-  }
-
-  .col-lg-6 {
-    width: calc(100% / 12 * 6);
-    /* background: blue; */
-  }
-
-  .col-lg-5 {
-    width: calc(100% / 12 * 5);
-    /* background: violet; */
-  }
-
-  .col-lg-4 {
-    width: calc(100% / 12 * 4);
-    /* background: green; */
-  }
-
-  .col-lg-3 {
-    width: calc(100% / 12 * 3);
-    /* background: yellow; */
-  }
-
-  .col-lg-2 {
-    width: calc(100% / 12 * 2);
-    /* background: yellow; */
-  }
-}
-
-/* // Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-  .col-xl-12 {
-    width: calc(100% / 12 * 12);
-    /* background: blue; */
-  }
-
-  .col-xl-11 {
-    width: calc(100% / 12 * 11);
-    /* background: blue; */
-  }
-
-  .col-xl-9 {
-    width: calc(100% / 12 * 9);
-    /* background: blue; */
-  }
-
-  .col-xl-8 {
-    width: calc(100% / 12 * 8);
-    /* background: blue; */
-  }
-
-  .col-xl-7 {
-    width: calc(100% / 12 * 7);
-    /* background: blue; */
-  }
-
-  .col-xl-6 {
-    width: calc(100% / 12 * 6);
-    /* background: blue; */
-  }
-
-  .col-xl-5 {
-    width: calc(100% / 12 * 5);
-    /* background: violet; */
-  }
-
-  .col-xl-4 {
-    width: calc(100% / 12 * 4);
-    /* background: green; */
-  }
-
-  .col-xl-3 {
-    width: calc(100% / 12 * 3);
-    /* background: yellow; */
-  }
-
-  .col-xl-2 {
-    width: calc(100% / 12 * 2);
-    /* background: yellow; */
-  }
-}
+@import "defaults.css";
+@import "media-queries.css";
 
 .btn {
   background: #eee;
@@ -482,6 +167,7 @@ nav {
   margin-bottom: 10px;
 }
 
+
 .span-block {
   display: block;
 }
@@ -489,6 +175,7 @@ nav {
 .hero-text p {
   font-weight: bold;
   margin-bottom: 10px;
+  color: #fff;
 }
 
 .model-name {
@@ -507,9 +194,9 @@ nav {
   margin-bottom: 50px;
 }
 
-.section-inverse p {
+/* .section-inverse p {
   color: var(--text-color-2);
-}
+} */
 
 .section-heading {
   color: var(--text-color-2);
@@ -598,3 +285,62 @@ nav {
 .border-right {
   border-right: 1px solid var(--text-color);
 }
+
+/* Fifth Section */
+/* upwork cards */
+.orange-dash {
+  width: 31px;
+  height: 7px;
+  /* min-height: 10px; */
+  background: var(--orange);
+}
+
+.light-red-dash {
+  width: 31px;
+  height: 7px;
+  /* min-height: 10px; */
+  background: var(--light-red);
+}
+
+.upwork-card-container{
+  margin: 20px 0;
+}
+
+.svg-description-container {
+  min-height: 120px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.svg-description-container h3 {
+  margin: 10px 0;
+}
+
+
+/* 6th section */
+.better-match-heading{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.better-match-heading > .light-red-dash {
+  margin-bottom: 10px;
+  width: 50px;
+}
+
+.better-match-divs{
+  text-align: center;
+}
+
+.better-match-divs > * {
+  margin-bottom: 10px;
+}
+
+/* .svg-container {
+}
+
