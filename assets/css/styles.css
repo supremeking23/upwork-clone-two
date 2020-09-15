@@ -167,7 +167,6 @@ nav {
   margin-bottom: 10px;
 }
 
-
 .span-block {
   display: block;
 }
@@ -302,7 +301,7 @@ nav {
   background: var(--light-red);
 }
 
-.upwork-card-container{
+.upwork-card-container {
   margin: 20px 0;
 }
 
@@ -320,9 +319,8 @@ nav {
   margin: 10px 0;
 }
 
-
 /* 6th section */
-.better-match-heading{
+.better-match-heading {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -333,8 +331,9 @@ nav {
   width: 50px;
 }
 
-.better-match-divs{
+.better-match-divs {
   text-align: center;
+  padding: 10px;
 }
 
 .better-match-divs > * {
@@ -344,3 +343,53 @@ nav {
 /* .svg-container {
 }
 
+/* Choose the offering that works best for you */
+.choose-problem {
+  padding: 20px 0;
+}
+.text-margin-bottom {
+  margin-bottom: 20px;
+}
+
+.choose-offering-box {
+  text-align: center;
+  padding: 10px 0;
+  background: #ffffff;
+  margin-right: 12px;
+  margin-bottom: 10px;
+  /* padding: 50px; */
+  /* min-width: 50px; */
+  width: 270px;
+  min-height: 500px;
+  box-shadow: 0 1px 6px rgba(57, 73, 76, 0.35);
+}
+
+.choose-offering-box h3 {
+  margin: 10px 0 30px 0;
+}
+
+.choose-offering-box button {
+  margin: 10px 0 20px 0;
+}
+
+.choose-offering-box h4 {
+  margin: 10px 0 30px 0;
+}
+.choose-offering-box ul {
+  padding: 20px 20px 0 20px;
+  list-style-type: none;
+}
+.choose-offering-box ul li {
+  color: #000;
+  padding-bottom: 20px;
+  text-align: left;
+}
+
+.choose-offering-box ul li i {
+  color: var(--primary-color);
+}
+
+.choose-offering-before-list {
+  margin: 20px 0;
+  text-align: center;
+}
