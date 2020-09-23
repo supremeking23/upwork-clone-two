@@ -8,6 +8,7 @@
   --text-color-2: #222;
   --light-red: #f3756c;
   --orange: #e6a01e;
+  --gray-granite: #a0a0a0;
 }
 
 * {
@@ -59,11 +60,19 @@ section {
   justify-content: center;
 }
 
-.col-display-row {
+.col-display-column {
   /* border: 1px solid #000; */
   min-height: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+}
+
+.col-display-text-center {
+  min-height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   justify-content: center;
 }

@@ -74,6 +74,15 @@
   .svg-description-outer-container {
     order: 2;
   }
+
+  .cr-left {
+    order: 2;
+    /* background: red; */
+  }
+  .iframe-wrapper {
+    order: 1;
+    margin-bottom: 10px;
+  }
 }
 
 /* // Extra small devices (portrait phones, less than 576px)
