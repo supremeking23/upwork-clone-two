@@ -455,3 +455,9 @@ nav {
   color: var(--primary-color) !important;
   text-decoration: underline;
 }
+
+.skills-section .btn-browse-skills {
+  color: var(--primary-color) !important;
+  background: #fff;
+  box-shadow: 0 1px 6px rgba(57, 73, 76, 0.35);
+}
