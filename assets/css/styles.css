@@ -139,7 +139,7 @@ nav {
 }
 
 .banner-hero {
-  background: url("/assets/imgs/banner.jpg");
+  background: url("./assets/imgs/banner.jpg");
   /* Background image doesn't tile */
   background-repeat: no-repeat;
 
