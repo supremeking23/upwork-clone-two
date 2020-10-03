@@ -27,6 +27,7 @@ nav {
   background: var(--bg-inverse);
   /* position: fixed; */
   /* width: 100%; */
+  font-family: Arial, Helvetica, sans-serif;
 }
 .main-navigation {
   height: 70px;
@@ -124,7 +125,7 @@ nav {
 }
 
 .ul-nav-links li {
-  margin-right: 10px;
+  margin-right: 20px;
 }
 
 .ul-nav-links li a {
@@ -478,4 +479,37 @@ nav {
 .btn-r-demo:hover {
   background-color: #008329;
   transition-delay: .1s;
+}
+
+
+/* footer */
+footer{
+  background: #1D4354;
+  
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.heading-footer{
+  border-bottom: 1px solid #ccc;
+  
+}
+
+
+footer ul {
+  list-style: none;
+}
+
+footer ul li {
+  margin-bottom: 10px;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #fff;
+  text-decoration: underline;
 }

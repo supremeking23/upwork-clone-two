@@ -60,6 +60,28 @@
   .svg-description-outer-container {
     order: 2;
   }
+
+
+  .col-skills {
+    margin-left: 20px;
+  }
+
+  .heading-footer {
+    margin-left: 10px;
+  }
+
+  .card-list-choosen {
+    margin-left: 70px;
+    
+  }
+
+  .navigation-links {
+    display: none;
+  }
+
+  .second-hire-content{
+    margin-right: 20px;
+  }
 }
 
 /* apply only to small screen devices */
