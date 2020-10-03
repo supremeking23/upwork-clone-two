@@ -461,3 +461,21 @@ nav {
   background: #fff;
   box-shadow: 0 1px 6px rgba(57, 73, 76, 0.35);
 }
+
+
+
+/* cta-section */
+
+.cta-div {
+  box-shadow: 0 1px 6px rgba(57, 73, 76, 0.35);
+}
+
+.btn-r-demo {
+  text-decoration: none;
+  transition: .5s background-color;
+}
+
+.btn-r-demo:hover {
+  background-color: #008329;
+  transition-delay: .1s;
+}
