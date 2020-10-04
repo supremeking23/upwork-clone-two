@@ -16,7 +16,7 @@ __Upwork Clone__ is based on __*Upwork.com*__ [Views of the Solar System](www.up
 
 ## Tech 
 
-Solar System View uses a number of technology to work properly:
+Upwork Clone uses a number of technology to work properly:
 
 * HTML5
 * CSS3
