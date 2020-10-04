@@ -34,6 +34,6 @@ Solar System View uses a number of technology to work properly:
 <img src="upworkFive.PNG" width="430px" height="">
 <img src="upworkSix.PNG" width="430px" height="">
 <img src="upworkSeven.PNG" width="430px" height="">
-<img src="upworkEight.PNG" width="430px" height="">
+<img src="upworkeight.PNG" width="430px" height="">
 <img src="upworkFive.PNG" width="430px" height="">
 
