@@ -27,6 +27,13 @@ Solar System View uses a number of technology to work properly:
 
 ## Screenshots
 
+<img src="upworkOne.PNG" width="430px" height="">
+<img src="upworkTwo.PNG" width="430px" height="">
+<img src="upworkThree.PNG" width="430px" height="">
+<img src="upworkFour.PNG" width="430px" height="">
 <img src="upworkFive.PNG" width="430px" height="">
-<img src="screenshots/sh2.PNG" width="430px" height="">
-<img src="screenshots/sh3.gif" width="430px" height="">
+<img src="upworkSix.PNG" width="430px" height="">
+<img src="upworkSeven.PNG" width="430px" height="">
+<img src="upworkEight.PNG" width="430px" height="">
+<img src="upworkFive.PNG" width="430px" height="">
+
